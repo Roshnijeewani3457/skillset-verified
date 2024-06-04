@@ -79,9 +79,7 @@ function CodeforcesGraph() {
           <small>(max-rating)</small>
         </i>
       </p>
-      <div>
-        <Line data={data} options={options} />
-      </div>
+      <div>{/* <Line data={data} options={options} /> */}</div>
     </>
   );
 }
